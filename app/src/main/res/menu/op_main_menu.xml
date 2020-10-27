@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.MainActivity">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/insta"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+
+<!--    <item-->
+<!--        android:id="@+id/action_reload"-->
+<!--        android:icon="@drawable/reload"-->
+<!--        android:title="Reload"-->
+<!--        app:showAsAction="ifRoom" />-->
+
+        <item
+            android:id="@+id/op_share"
+            android:icon="@drawable/share"
+            android:title="Share"
+            app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/op_addBookmark"
+        android:icon="@drawable/share"
+        android:title="Add bookmark"
+        app:showAsAction="collapseActionView"/>
+
+        <item android:id="@+id/op_newTab"
+            android:orderInCategory="1"
+            android:title="New tab"
+            app:showAsAction="collapseActionView"/>
+
+        <item
+            android:id="@+id/op_incognitoMode"
+            android:title="Incognito mode"
+            android:orderInCategory="2"
+            app:showAsAction="collapseActionView"/>
+
+        <item android:id="@+id/op_bookmarks"
+            android:orderInCategory="3"
+            android:title="Bookmarks"
+            app:showAsAction="collapseActionView"/>
+
+        <item
+            android:id="@+id/op_downloads"
+            android:title="Downloads"
+            android:orderInCategory="4"
+            app:showAsAction="collapseActionView"/>
+
+        <item
+            android:id="@+id/op_history"
+            android:title="History"
+            android:orderInCategory="5"
+            app:showAsAction="collapseActionView"/>
+
+        <item
+            android:id="@+id/op_findInPage"
+            android:title="Find in page"
+            android:orderInCategory="6"
+            app:showAsAction="collapseActionView"/>
+
+        <item
+            android:id="@+id/op_reqDesktopSite"
+            android:title="Request Desktop Site"
+            android:orderInCategory="7"
+            app:showAsAction="collapseActionView"/>
+
+        <item
+            android:id="@+id/op_page"
+            android:title="Page"
+            android:orderInCategory="8"
+            app:showAsAction="collapseActionView">
+            <menu>
+                <item
+                    android:id="@+id/op_print"
+                    android:icon="@drawable/forward"
+                    android:title="Print"
+                    />
+                <item
+                    android:id="@+id/op_pageSource"
+                    android:icon="@drawable/forward"
+                    android:title="View Page Source"
+                    />
+            </menu>
+        </item>
+
+
+
+
+
+
+<!--    <item-->
+<!--        android:icon="@drawable/ic_about"-->
+<!--        android:title="Turbo mode"-->
+<!--        app:showAsAction="collapseActionView"/>-->
+
+
+
+<!--    <item-->
+<!--        android:icon="@drawable/ic_settings"-->
+<!--        android:title="Night Mode"-->
+<!--        app:showAsAction="collapseActionView"/>-->
+
+<!--    <item-->
+<!--        android:icon="@drawable/ic_settings"-->
+<!--        android:title="Block images"-->
+<!--        app:showAsAction="collapseActionView"/>-->
+
+
+
+
+<!--    <item-->
+<!--        android:icon="@drawable/ic_settings"-->
+<!--        android:title="Clear cache"-->
+<!--        app:showAsAction="collapseActionView"/>-->
+
+<!--    <item-->
+<!--        android:icon="@drawable/ic_settings"-->
+<!--        android:title="Print"-->
+<!--        app:showAsAction="collapseActionView"/>-->
+
+<!--    <item-->
+<!--        android:icon="@drawable/ic_settings"-->
+<!--        android:title="View page source"-->
+<!--        app:showAsAction="collapseActionView"/>-->
+
+
+
+
+</menu>
